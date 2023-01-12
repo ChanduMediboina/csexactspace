@@ -1,5 +1,6 @@
 import React from 'react'
 
+//this Component is used to create a react context
 const CreateContext = React.createContext({
   messagesData: [],
   setMessagesData: () => {},
