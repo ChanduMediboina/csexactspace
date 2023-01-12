@@ -17,7 +17,7 @@ const SideNavBar = () => {
     <CreateContext.Consumer>
       {value => {
         const {getChannelName} = value
-
+        //when user clicks on tab it will be triggered
         const selectTab = tabName => {
           setTabId(tabName)
           getChannelName(tabName)
