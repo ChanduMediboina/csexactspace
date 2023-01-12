@@ -37,6 +37,7 @@ function UserInput() {
       {value => {
         const {setMessagesData, channel} = value
 
+    //onclick to add this object in Array 
         const onClickSendBtn = () => {
           const randomNumber = Math.ceil(Math.random() * userList.length - 1)
           if (message !== '') {
@@ -74,7 +75,6 @@ function UserInput() {
                   </button>
                 }
                 modal
-
                 // overlayStyle={{backgroundColor: 'transparent', width: '20vh'}}
               >
                 <EmojiPicker onEmojiClick={onEmojiClick} />
