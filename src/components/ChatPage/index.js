@@ -12,7 +12,6 @@ const ChatPage = () => (
   <CreateContext.Consumer>
     {value => {
       const {messagesData, messagesCount, channel} = value
-
       return (
         <div className="chat-container">
           <div className="channel-type-information">
