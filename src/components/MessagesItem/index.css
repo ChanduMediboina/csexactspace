@@ -1,0 +1,121 @@
+.list-container {
+  list-style-type: none;
+  display: flex;
+  justify-items: flex-start;
+  align-items: flex-start;
+}
+.chat-profile {
+  width: 35px;
+  height: 35px;
+  color: #ffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 60px;
+  text-align: center;
+  padding-top: 8px;
+  margin: 15px 15px;
+}
+.time-name-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.message-time {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #8a8888;
+  padding-left: 12px;
+  padding-top: 6px;
+}
+h5 {
+  color: #757679;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 0;
+}
+
+.message-description {
+  color: #a4a4a4;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 0px 10px 10px 10px;
+  margin-top: 0px;
+  max-width: 58vw;
+  box-shadow: 0px 0px 6px rgb(223, 222, 222);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+.like-btn {
+  width: 30px;
+  height: 25px;
+}
+.drop-down-btn {
+  font-size: 20px;
+  color: #a4a4a4;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.drop-down-btn:hover {
+  color: #47484a;
+}
+.delete-button-popup {
+  padding-left: 60px;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  color: #818285;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 30px 5px 15px;
+}
+.like {
+  padding-right: 48px;
+}
+.delete-button-popup:hover {
+  color: #4d4d4e;
+}
+.delete-icon {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}

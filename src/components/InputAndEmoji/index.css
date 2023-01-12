@@ -1,0 +1,59 @@
+.button-input-container {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.user-input-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #d2d4d7;
+  width: 60vw;
+  margin: 20px;
+  margin-right: 0px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 768px) {
+  .user-input-container {
+    width: 80vw;
+  }
+}
+.emoji-btn {
+  border: none;
+  background-color: transparent;
+  margin-right: 5px;
+}
+.emoji-icon {
+  cursor: pointer;
+  top: 8px;
+  right: 5px;
+  font-size: 20px;
+}
+
+.input-style {
+  padding: 9px 30px 9px 10px;
+  width: calc(100% - 40px);
+  border-radius: 3px;
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #757679;
+  font-family: 'Roboto';
+  border-radius: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.send-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 38px;
+  margin-top: 6px;
+  cursor: pointer;
+  padding: 2px;
+}
+.send-btn:hover {
+  font-size: 40px;
+}

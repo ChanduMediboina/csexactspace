@@ -1,0 +1,31 @@
+.tabs-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.activeTabBg {
+  background-color: #629df4;
+}
+.hash-symbol {
+  font-size: 20px;
+  background-color: #edf1f5;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.active-tab-hash-symbol {
+  background-color: #6093e7;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.side-tab-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #717274;
+}
+.active-tab-side-tab-name {
+  color: #cfedf9;
+}

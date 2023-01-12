@@ -1,0 +1,80 @@
+.side-nav-container {
+  background-color: #ffffff;
+  width: 30vw;
+  padding: 20px;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .side-nav-container {
+    width: 100vw;
+  }
+}
+.nav-profile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile {
+  background-color: #ec8e8f;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  color: #fcf7f7;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h4 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #828282;
+  line-height: 5px;
+  padding-left: 10px;
+}
+.designation {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #b0b0b3;
+  line-height: 5px;
+  padding-left: 10px;
+}
+.online-dot {
+  background-color: #b6e378;
+  color: #b6e378;
+  height: 16px;
+  width: 16px;
+  border-radius: 90px;
+  align-self: flex-end;
+  font-size: 1px;
+  border: 2px solid #fdfdfa;
+}
+.profile-name {
+  margin-right: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  padding-left: 13px;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.plus-icon-conversation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+  color: #5c5d5e;
+}
+.plus-icon {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+  color: #5c5d5e;
+}

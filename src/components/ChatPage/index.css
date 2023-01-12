@@ -1,0 +1,58 @@
+.chat-container {
+  width: 70vw;
+  height: 100vh;
+  background-color: #edf1f5;
+  min-height: 100vh;
+  padding: 10px;
+  padding-top: 0px;
+}
+@media screen and (max-width: 768px) {
+  .chat-container {
+    width: 100vw;
+  }
+}
+.channel-type-information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.introduction-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #454549;
+}
+.type-of-chat {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #a7a9ab;
+}
+.group-size {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  color: #a0a2a5;
+}
+@media screen and (max-width: 768px) {
+  .group-size {
+    padding-left: 40px;
+    line-height: 0;
+  }
+}
+.contact-icon {
+  font-size: 40px;
+  color: #c1c2c3;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+
+hr {
+  background-color: #afafb1;
+  border: 1px solid #afafb1;
+}
+.chat-content-container {
+  overflow-y: auto;
+  height: 80%;
+  padding-bottom: 54px;
+}
