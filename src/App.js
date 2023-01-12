@@ -14,6 +14,7 @@ const App = () => {
   const [messagesCount, setMessagesCount] = useState(0)
 
   useEffect(() => {
+    //messages count functionality
     let count = 0
     messagesData.map(each => {
       if (each.channel === channel) {
@@ -24,14 +25,17 @@ const App = () => {
     setMessagesCount(count)
   })
 
+  //get and save the new message to Array
   const setMessagesData = message => {
     setMessages(prevState => [...prevState, message])
   }
 
+ // delete a message by using filter method
   const getDeleteId = id => {
     setMessages(messagesData.filter(item => item.id !== id))
   }
 
+  //toggle the like button
   const getLike = id => {
     const update = messagesData.map(each => {
       if (each.id === id) {
@@ -42,6 +46,7 @@ const App = () => {
     setMessages(update)
   }
 
+  //Toggle the unlike button
   const getUnLike = id => {
     const update = messagesData.map(each => {
       if (each.id === id) {
@@ -51,12 +56,13 @@ const App = () => {
     })
     setMessages(update)
   }
-
+//side navbar tab changes function
   const getChannelName = tabName => {
     setChannel(tabName)
   }
 
   return (
+    //context
     <CreateContext.Provider
       value={{
         messagesData,
